@@ -1,0 +1,18 @@
+# Local account preferences and private invoice data
+/settings.json
+/归档结果/
+/*.csv
+/*.eml
+
+# Built distributions and downloaded Python installer
+/*.zip
+/发行资源/
+/.python/
+/分享包验证/
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+/.ocr-venv/
+/.venv/
+*.log
