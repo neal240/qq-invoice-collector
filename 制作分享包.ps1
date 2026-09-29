@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $appRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
-$zipPath = Join-Path $appRoot '发票归集_分享版.zip'
+$zipPath = Join-Path $appRoot 'qq-invoice-collector-win-x64.zip'
 $rootInZip = '发票归集'
 
 # Explicit allowlist: never package settings.json, mail data, credentials or caches.

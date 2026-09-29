@@ -48,7 +48,7 @@ try {
             throw '此分享包适用于 64 位 Windows。'
         }
         if (-not (Test-Path -LiteralPath $installer -PathType Leaf)) {
-            throw '安装文件缺失。请使用完整的“发票归集_分享版.zip”重新解压。'
+            throw '安装文件缺失。请使用完整的 Release ZIP 重新解压。'
         }
         $actualHash = (Get-FileHash -LiteralPath $installer -Algorithm SHA256).Hash
         if ($actualHash -ne $expectedHash) {

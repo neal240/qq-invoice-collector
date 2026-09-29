@@ -6,7 +6,7 @@
 
 ## 下载与启动
 
-**[下载最新 Release](https://github.com/neal240/qq-invoice-collector/releases/latest)** → 解压 ZIP → 双击 `启动发票归集.cmd`。
+**[下载最新 Release](https://github.com/neal240/qq-invoice-collector/releases/latest)** 的 `qq-invoice-collector-win-x64.zip` → 解压 → 双击 `启动发票归集.cmd`。
 
 适用 **64 位 Windows 10/11**。Release ZIP 已带 PDF 读取库和 [Python 官方安装程序](https://www.python.org/downloads/release/python-31315/)；电脑没有可用的 Python 时，首次启动会显示安装提示，安装结束后自动打开界面。无需手动运行 `pip install`。建议将 ZIP 解压到自己有写入权限的文件夹。
 
